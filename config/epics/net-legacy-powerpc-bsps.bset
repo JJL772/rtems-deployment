@@ -2,6 +2,8 @@
 # EPICS Base Net Legacy BSPs
 #
 %{rtems_version}/rtems-powerpc
+%define with_rtems_bsp_config config/epics/rtems-config.ini
+
 epics/net-legacy-powerpc-beatnik
 epics/net-legacy-powerpc-mvme2100
 epics/net-legacy-powerpc-mvme2700

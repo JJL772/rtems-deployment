@@ -2,4 +2,5 @@
 # EPICS Base Net Legacy BSPs
 #
 %{rtems_version}/rtems-m68k
+%define with_rtems_bsp_config config/epics/rtems-config.ini
 epics/net-legacy-m68k-uC5282

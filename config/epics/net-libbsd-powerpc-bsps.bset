@@ -2,7 +2,11 @@
 # EPICS Base PowerPC LibBSD BSPs
 #
 %{rtems_version}/rtems-powerpc
+%define with_rtems_bsp_config config/epics/rtems-config.ini
+
 #
-# Build ibBSD once for each BSP
+# Build libBSD once for each BSP
 #
 epics/net-libbsd-powerpc-mvme2700
+epics/net-libbsd-powerpc-beatnik
+epics/net-libbsd-powerpc-mvme3100

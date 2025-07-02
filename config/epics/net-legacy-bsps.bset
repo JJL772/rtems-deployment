@@ -4,5 +4,5 @@
 # Build  once for each BSP in each architecture
 #
 #
-# epics/net-legacy-m68k-bsps # Removed m68k due to a FP issue
+epics/net-legacy-m68k-bsps
 epics/net-legacy-powerpc-bsps

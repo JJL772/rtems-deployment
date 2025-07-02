@@ -2,6 +2,8 @@
 # EPICS Base i386 LibBSD BSPs
 #
 %{rtems_version}/rtems-i386
+%define with_rtems_bsp_config config/epics/rtems-config.ini
+
 #
 # Build ibBSD once for each BSP
 #
